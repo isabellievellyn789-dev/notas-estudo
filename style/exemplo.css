@@ -1,0 +1,68 @@
+body {
+    background-color: #c78ddf;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #b8a3f1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+header a{
+    text-decoration: none;
+   color: #fff;
+   background-color: #a896db;
+   padding: 5px 20px;
+   border-radius: 100px;
+}
+
+header a:hover{
+ background-color: #816cb9;
+}
+h1 {
+    /*    :top right botton left */
+     margin: 0 0 10PX 0 
+   /* margin-bottom: 10px; */
+}
+main {
+    padding: 16px;
+}
+
+section{
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+section h2 {
+    border-bottom: 2px solid  #7807a8;;
+}
+
+input,textarea,select{
+    width: 99%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #69569c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+form button:hover{
+     background-color: #8c7abe;
+}
+/* para referenciar  ID e´com # */
+#exemploid { 
+    background-color: rgb(200, 93, 233);
+}
+/* para referenciar classe é com .  */
+.exemploclass {
+    background-color: rgb(219, 183, 223);
+}

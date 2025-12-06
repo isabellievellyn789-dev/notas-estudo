@@ -1,0 +1,51 @@
+body {
+    background-color: #700404;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #680505;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+header a{
+    text-decoration: none;
+   color: #fff;
+   background-color: #af3c3c;
+   padding: 5px 20px;
+   border-radius: 100px;
+}
+
+header a:hover{
+ background-color: #a10505;
+}
+h1 {
+    /*    :top right botton left */
+     margin: 0 0 10PX 0 
+   /* margin-bottom: 10px; */
+}
+main {
+    padding: 16px;
+}
+
+section{
+    background-color: #d87878;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+section h3 {
+    border-bottom: 2px solid  #740606;;
+}
+
+/* para referenciar  ID e´com # */
+#exemploid { 
+    background-color: rgb(227, 177, 241);
+}
+/* para referenciar classe é com .  */
+.exemploclass {
+    background-color: rgb(242, 145, 255);
+}
